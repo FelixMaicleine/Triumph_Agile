@@ -20,12 +20,11 @@ import 'package:triumph_agile/pages/landing.dart';
 import 'package:triumph_agile/pages/loginuser.dart';
 import 'package:triumph_agile/pages/register.dart';
 import 'package:triumph_agile/pages/forgotpass.dart';
-// import 'package:triumph_agile/pages/trash.dart';
+import 'package:triumph_agile/pages/trash.dart';
 import 'package:triumph_agile/pages/verifcode.dart';
 import 'package:triumph_agile/pages/changepass.dart';
 import 'package:triumph_agile/pages/mailsuser.dart';
 import 'package:triumph_agile/pages/createmail.dart';
-
 import 'package:provider/provider.dart';
 import 'package:triumph_agile/provider/theme.dart';
 import 'package:triumph_agile/provider/mailprovider.dart';
@@ -73,7 +72,7 @@ class MyApp extends StatelessWidget {
         '/pendinguser': (context) => OutboxUser(),
         '/favadmin': (context) => FavAdmin(),
         '/favuser': (context) => FavUser(),
-        // '/trash': (context) => Trash(),
+        '/trash': (context) => Trash(),
         '/draft': (context) => Draft(),
       },
     );
