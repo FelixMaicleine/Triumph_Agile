@@ -467,7 +467,7 @@ class _MailsAdmin extends State<MailsAdmin> {
       ),
     );
   }
-
+// fitur approved dan decline yang hanya pada admin
   void _showdeclinedDialog(
       BuildContext context, MailItem mail, MailProvider mailProvider) {
     TextEditingController _reasonController = TextEditingController();
