@@ -231,6 +231,7 @@ class _HomeA extends State<HomeA> {
             )),
       ),
       //fitur sidebar
+      //fitur navigasi
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 20),
         decoration: BoxDecoration(
