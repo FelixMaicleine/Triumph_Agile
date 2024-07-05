@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:triumph2/provider/theme.dart';
+import 'package:triumph_agile/provider/theme.dart';
 
 class LoginAdmin extends StatefulWidget {
   const LoginAdmin({super.key});
